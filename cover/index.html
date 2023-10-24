@@ -246,6 +246,9 @@ signInWithPopup(auth, provider)
     document.write("Welcome " + user.displayName);
     document.write("<BR>");
     document.write("Logged in as: " + user.email);
+    document.write("Status: " + "<p style='color: yellow;'>Pending</p>");
+    document.write("<BR>");
+    document.write("This normally takes few minutes, but might keep longer in some cases.");
     // ...
   }).catch((error) => {
     // Handle Errors here.
