@@ -1,0 +1,44 @@
+[
+    {
+        "Title": "Dignitaries",
+        "Synopsis": "is a 2021 Chinese television series directed by Qin Zhen, adapted from the novel 'A bright spear is easy to hide, but a secret love is hard to prevent' (明枪易躲，暗恋难防) by Qiao Yao. It starred Lin Yi and Xu Lu in the leading roles.",
+        "Thumbnail": "https://eduqii.github.io/onnetmovies/img/Love_Scenery_official_poster.jpg",
+        "Url": "https://firebasestorage.googleapis.com/v0/b/onnetmovies.appspot.com/o/LvScnryE04.mp4?alt=media&token=0e357061-8201-4e03-9a98-1f27f3f28f0d",
+        "IsFeatured": false
+    },
+    {
+        "Title": "Coming 2 America",
+        "Synopsis": "Needing a male heir to the throne, Prince Akeem returns to New York, to find his long-lost son and bring him back to Zamunda.",
+        "Thumbnail": "https://eduqii.github.io/onnetmovies/img/coming2.jpg",
+        "Url": "https://firebasestorage.googleapis.com/v0/b/onnetmovies.appspot.com/o/Coming%202%20America%202021%20720p.mp4?alt=media&token=e697b025-de54-4f87-a8d7-6fb18347e218",
+        "IsFeatured": false
+    },
+    {
+        "Title": "Joahamyeon Ulineun S01E02",
+        "Synopsis": "Joahamyeon Ulineun is a TV series starring Kim So-Hyun, Song Kang, and Ga-ram Jung. In a world where an app alerts people if someone in the vicinity likes them, Kim Jojo experiences young love while coping with personal adversities.",
+        "Thumbnail": "https://eduqii.github.io/onnetmovies/img/JU.jpg",
+        "Url": "https://firebasestorage.googleapis.com/v0/b/onnetmovies.appspot.com/o/KDramaS01E02.mkv?alt=media&token=4e318b16-1f78-4ac0-b932-d44568c0c3c9",
+        "IsFeatured": false
+    },
+    {
+        "Title": "The BoonDocks Marathon",
+        "Synopsis": "Cantankerous Robert 'Granddad' Freeman is the legal guardian of his grandsons, 10-year-old revolutionary Huey and 8-year-old Riley, a product of contemporary rap culture. After moving the family from Chicago's South Side to the safety of suburban Woodcrest -- aka the boondocks -- Granddad hopes to ignore the grandkids and enjoy his golden years in peace. But the kids have different plans, torturing each other and provoking others in the neighborhood. No matter how wild they get, Huey and Riley are no match for the eccentric elderly man. | Caution: Some scenes in this episode will be inappopriate to some users.",
+        "Thumbnail": "https://eduqii.github.io/onnetmovies/img/boonnext.jpg",
+        "Url": "https://firebasestorage.googleapis.com/v0/b/onnetmovies.appspot.com/o/Boondocks_APimpNamedSlickbackCompilation.mp4?alt=media&token=9351109c-cc71-4ff3-9697-6e638a0aba1c",
+        "IsFeatured": true
+    },
+    {
+        "Title": "Family Guy",
+        "Synopsis": "Peter Griffin and his family of two teenagers, a smart dog, a devilish baby and his wife find themselves in some of the most hilarious scenarios.",
+        "Thumbnail": "https://eduqii.github.io/onnetmovies/img/familyguy.jpg",
+        "Url": "https://firebasestorage.googleapis.com/v0/b/onnetmovies.appspot.com/o/FamilyGuySeason20Ep14FullEpisode-FamilyGuy2023FullNocuts1080p.mp4?alt=media&token=fad854c4-2de2-4520-abfc-782256a0596a",
+        "IsFeatured": false
+    },
+     {
+        "Title": "Cherry",
+        "Synopsis": "Cherry drifts from college dropout to army medic in Iraq -- anchored only by his one true love, Emily. However, after returning from the war with PTSD, his life spirals into drugs and crime as he struggles to find his place in the world. Image source: Wikipedia",
+        "Thumbnail": "https://eduqii.github.io/onnetmovies/img/Cherry_2021_poster.jpg",
+        "Url": "https://firebasestorage.googleapis.com/v0/b/onnetmovies.appspot.com/o/CherryWEBR.mp4?alt=media&token=9c2de8fc-5b4a-47f8-9298-b39e11e4cfeb",
+        "IsFeatured": true
+    }
+]
