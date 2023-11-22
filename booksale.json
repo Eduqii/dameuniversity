@@ -2,14 +2,14 @@
     {
         "Title": "Ada Lovelace",
         "Synopsis": "Augusta Ada King, Countess of Lovelace was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognise that the machine had applications beyond pure calculation.",
-        "Thumbnail": "https://eduqii.github.io/onnetmovies/img/Love_Scenery_official_poster.jpg",
+        "Thumbnail": "https://eduqii.github.io/onnetmovies/img/images.jpg",
         "Url": "",
         "IsFeatured": false
     },
     {
         "Title": "Douglas Engelbart",
         "Synopsis": "The first public demonstration of a mouse controlling a computer system was done by Doug Engelbart in the Mother of All Demos.[1] Mice originally used two separate wheels to directly track movement across a surface: one in the X-dimension and one in the Y. Later, the standard design shifted to use a ball rolling on a surface to detect motion, in turn connected to internal rollers. Most modern mice use optical movement detection with no moving parts. Though originally all mice were connected to a computer by a cable, many modern mice are cordless, relying on short-range radio communication with the connected system.",
-        "Thumbnail": "https://eduqii.github.io/onnetmovies/img/coming2.jpg",
+        "Thumbnail": "https://eduqii.github.io/onnetmovies/img/douglas_engelbart.jpg",
         "Url": "",
         "IsFeatured": false
     }
