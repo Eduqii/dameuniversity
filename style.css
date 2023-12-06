@@ -11,8 +11,12 @@ body{
 /*.content-heading{
 	color: green;
 }*/
+details{
+	margin-bottom: 15px;
+}
 summary{
 	color: brown;
+	margin-bottom: 10px;
 }
 
 .miscellaneous{
