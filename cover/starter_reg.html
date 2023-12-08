@@ -581,9 +581,9 @@
 
           <h4 class="mb-3">Confirm</h4>
 
-          <div class="form-group">
+         <!-- <div class="form-group">
             <input type="button" class="btn btn-info" name="starter" value="Confirm" onclick="continueConfirm()">
-          </div>
+          </div>-->
 
           <!-- <div class="my-3">
             <div class="form-check">
@@ -637,7 +637,7 @@
 
           <hr class="my-4">
 
-          <button class="w-100 btn btn-primary btn-lg" type="submit" id="login"style="visibility: hidden;">Continue to confirm</button>
+          <button class="w-100 btn btn-primary btn-lg" onclick="continueConfirm" id="login">Continue to confirm</button>
         </form>
       </div>
     </div>
@@ -653,110 +653,13 @@
 </div>
     <script type="text/javascript">
       function continueConfirm() {
-        document.querySelector('#login').style.visibility = visible;
+        window.location.assign("https://");
       }
     </script>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
     <script src="checkout.js"></script>
 
-    <script type="module">
- // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.0/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.0/firebase-analytics.js";
-  import { getAuth ,GoogleAuthProvider, signInWithRedirect, getRedirectResult, signInWithPopup, signOut } from "https://www.gstatic.com/firebasejs/9.19.0/firebase-auth.js";
-
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  const firebaseConfig = {
-  // your config code
-    apiKey: "AIzaSyANsq2HUH9f93kVBS9X7c6PU7FBaj6d3IU",
-    authDomain: "ultracklist.firebaseapp.com",
-    projectId: "ultracklist",
-    storageBucket: "ultracklist.appspot.com",
-    messagingSenderId: "766355122033",
-    appId: "1:766355122033:web:71eaf59bc09e7557bf38d0",
-    measurementId: "G-PV6DR53SVM"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const auth = getAuth(app);
-  const provider = new GoogleAuthProvider(app);
-
- login.addEventListener('click',(e) => {
-   // signInWithRedirect(auth, provider);
-
-
-   // redirect the result
-  //  getRedirectResult(auth)
-  //    .then((result) => {
-  //      // This gives you a Google Access Token. You can use it to access Google APIs.
-  //      const credential = GoogleAuthProvider.credentialFromResult(result);
-  //      const token = credential.accessToken;
-
-  //      // The signed-in user info.
-  //      const user = result.user;
-
-  //    }).catch((error) => {
-  //      // Handle Errors here.
-  //      const errorCode = error.code;
-  //      const errorMessage = error.message;
-  //      // The email of the user's account used.
-  //      const email = error.email;
-  //      // The AuthCredential type that was used.
-  //      const credential = GoogleAuthProvider.credentialFromError(error);
-  //      // ...
-       
-  // });
-
-
-// sign in with popup tab
-signInWithPopup(auth, provider)
-  .then((result) => {
-    // This gives you a Google Access Token. You can use it to access the Google API.
-    const credential = GoogleAuthProvider.credentialFromResult(result);
-    const token = credential.accessToken;
-    // The signed-in user info.
-    const user = result.user;
-
-
-    // alert(user.displayName);
-    // document.write(user.photoURL);
-    document.write("Welcome " + user.displayName);
-    document.write("<BR>");
-    document.write("Logged in as: " + user.email);
-    document.write("<BR>");
-    document.write("<p>Code: " + "<span style='color: yellow;'>G456123</span></p>");
-    document.write("<BR>");
-    document.write("There's no glory in practise, but without practice, there will be no glory.");
-    // ...
-  }).catch((error) => {
-    // Handle Errors here.
-    const errorCode = error.code;
-    const errorMessage = error.message;
-    // The email of the user's account used.
-    const email = error.email;
-    // The AuthCredential type that was used.
-    const credential = GoogleAuthProvider.credentialFromError(error);
-    // ...
-
-    alert(errorMessage);
-  });
- });
-
-  signOut.addEventListener('click',(e) => {
-
-   signOut(auth).then(() => {
-    // Sign-out successful.
-   }).catch((error) => {
-    // An error happened.
-   });
-
-  });
-
-</script>
+    
   </body>
 </html>
