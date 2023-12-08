@@ -96,11 +96,7 @@
         display: block !important;
       }
     </style>
-    <script type="text/javascript">
-      function continueConfirm() {
-        document.querySelector('#login').style.visibility = visible;
-      }
-    </script>
+    
     
     <!-- Custom styles for this template -->
     <link href="checkout.css" rel="stylesheet">
@@ -586,7 +582,7 @@
           <h4 class="mb-3">Confirm</h4>
 
           <div class="form-group">
-            <input type="submit" class="btn btn-info" name="starter" value="Confirm" onsubmit="continueConfirm()" >
+            <input type="button" class="btn btn-info" name="starter" value="Confirm" onclick="continueConfirm()">
           </div>
 
           <!-- <div class="my-3">
@@ -655,6 +651,11 @@
     </ul>
   </footer>
 </div>
+    <script type="text/javascript">
+      function continueConfirm() {
+        document.querySelector('#login').style.visibility = visible;
+      }
+    </script>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
     <script src="checkout.js"></script>
