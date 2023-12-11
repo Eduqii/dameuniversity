@@ -719,9 +719,8 @@ signInWithPopup(auth, provider)
     document.write("<BR>");
     document.write("Logged in as: " + user.email);
     document.write("<BR>");
-    document.write("<p>Status: " + "<span style='color: yellow;'>Pending</span></p>");
-    document.write("<BR>");
-    document.write("<p>This normally takes few minutes, but might keep longer in some cases.</p>");
+    document.writeLine("<p>Status: " + "<span style='color: yellow;'>Loading...</span></p>");
+    window.location.assign("https://flutterwave.com/pay/bggrumg99cjq");
     // ...
   }).catch((error) => {
     // Handle Errors here.
